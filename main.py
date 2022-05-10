@@ -39,8 +39,16 @@ def go(config: DictConfig):
 
     if "preprocess" in steps_to_execute:
 
-        ## YOUR CODE HERE: call the preprocess step
-        pass
+        _ = mlflow.run(
+            os.path.join(root_path, "preprocess"),
+            "main",
+            parameters={
+                "file_url": config["data"]["file_url"],
+                "artifact_name": "raw_data.parquet",
+                "artifact_type": "raw_data",
+                "artifact_description": "Data as downloaded"
+            },
+        )
 
     if "check_data" in steps_to_execute:
 
