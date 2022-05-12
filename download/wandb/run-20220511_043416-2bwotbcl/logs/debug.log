@@ -1,0 +1,28 @@
+2022-05-11 04:34:16,835 INFO    MainThread:28518 [wandb_setup.py:_flush():69] setting env: {'run_group': 'dev', 'project': 'exercise_14'}
+2022-05-11 04:34:16,835 INFO    MainThread:28518 [wandb_setup.py:_flush():69] setting login settings: {}
+2022-05-11 04:34:16,836 INFO    MainThread:28518 [wandb_init.py:_log_setup():334] Logging user logs to /mnt/d/Udacity/MLOps/Udacity Exercises/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/download/wandb/run-20220511_043416-2bwotbcl/logs/debug.log
+2022-05-11 04:34:16,836 INFO    MainThread:28518 [wandb_init.py:_log_setup():335] Logging internal logs to /mnt/d/Udacity/MLOps/Udacity Exercises/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/download/wandb/run-20220511_043416-2bwotbcl/logs/debug-internal.log
+2022-05-11 04:34:16,837 INFO    MainThread:28518 [wandb_init.py:init():367] calling init triggers
+2022-05-11 04:34:16,837 INFO    MainThread:28518 [wandb_init.py:init():372] wandb.init called with sweep_config: {}
+config: {}
+2022-05-11 04:34:16,838 INFO    MainThread:28518 [wandb_init.py:init():416] starting backend
+2022-05-11 04:34:16,838 INFO    MainThread:28518 [backend.py:_multiprocessing_setup():69] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-05-11 04:34:16,860 INFO    MainThread:28518 [backend.py:ensure_launched():123] starting backend process...
+2022-05-11 04:34:16,863 INFO    MainThread:28518 [backend.py:ensure_launched():127] started backend process with pid: 28531
+2022-05-11 04:34:16,864 INFO    MainThread:28518 [wandb_init.py:init():421] backend started and connected
+2022-05-11 04:34:16,866 INFO    MainThread:28518 [wandb_init.py:init():461] updated telemetry
+2022-05-11 04:34:16,867 INFO    MainThread:28518 [wandb_init.py:init():480] communicating current version
+2022-05-11 04:34:17,387 INFO    MainThread:28518 [wandb_init.py:init():485] got version response upgrade_message: "wandb version 0.12.16 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2022-05-11 04:34:17,388 INFO    MainThread:28518 [wandb_init.py:init():493] communicating run to backend with 30 second timeout
+2022-05-11 04:34:17,778 INFO    MainThread:28518 [wandb_init.py:init():518] starting run threads in backend
+2022-05-11 04:34:17,907 INFO    MainThread:28518 [wandb_run.py:_console_start():1476] atexit reg
+2022-05-11 04:34:17,910 INFO    MainThread:28518 [wandb_run.py:_redirect():1339] redirect: SettingsConsole.REDIRECT
+2022-05-11 04:34:17,911 INFO    MainThread:28518 [wandb_run.py:_redirect():1344] Redirecting console.
+2022-05-11 04:34:17,911 INFO    MainThread:28518 [redirect.py:install():213] install start
+2022-05-11 04:34:17,912 INFO    MainThread:28518 [redirect.py:install():228] install stop
+2022-05-11 04:34:17,912 INFO    MainThread:28518 [redirect.py:install():213] install start
+2022-05-11 04:34:17,912 INFO    MainThread:28518 [redirect.py:install():228] install stop
+2022-05-11 04:34:17,913 INFO    MainThread:28518 [wandb_run.py:_redirect():1390] Redirects installed.
+2022-05-11 04:34:17,913 INFO    MainThread:28518 [wandb_init.py:init():542] run started, returning control to user process
+2022-05-11 04:34:20,905 INFO    MainThread:28518 [wandb_run.py:finish():1135] finishing run vishak_arudhra/exercise_14/2bwotbcl

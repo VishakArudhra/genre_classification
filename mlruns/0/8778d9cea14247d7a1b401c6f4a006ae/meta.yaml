@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/d/Udacity/MLOps/Udacity%20Exercises/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/mlruns/0/8778d9cea14247d7a1b401c6f4a006ae/artifacts
+end_time: 1652220727835
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 8778d9cea14247d7a1b401c6f4a006ae
+run_uuid: 8778d9cea14247d7a1b401c6f4a006ae
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1652220637797
+status: 3
+tags: []
+user_id: vishak_arudhra

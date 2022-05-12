@@ -1,0 +1,22 @@
+============================= test session starts ==============================
+platform linux -- Python 3.8.0, pytest-6.2.2, py-1.11.0, pluggy-0.13.1 -- /home/vishak_arudhra/miniconda3/envs/mlflow-cae5f163cb5631e5bcb3d0191a7e5304b8417f4e/bin/python
+cachedir: .pytest_cache
+rootdir: /mnt/d/Udacity/MLOps/Udacity Exercises/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/check_data
+collecting ... collected 4 items
+
+test_data.py::test_column_presence_and_type PASSED
+test_data.py::test_class_names PASSED
+test_data.py::test_column_ranges PASSED
+test_data.py::test_kolmogorov_smirnov PASSED
+
+=============================== warnings summary ===============================
+../../../../../../../../../../../home/vishak_arudhra/miniconda3/envs/mlflow-cae5f163cb5631e5bcb3d0191a7e5304b8417f4e/lib/python3.8/site-packages/wandb/vendor/watchdog/utils/bricks.py:175
+  /home/vishak_arudhra/miniconda3/envs/mlflow-cae5f163cb5631e5bcb3d0191a7e5304b8417f4e/lib/python3.8/site-packages/wandb/vendor/watchdog/utils/bricks.py:175: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.9 it will stop working
+    class OrderedSet(collections.MutableSet):
+
+test_data.py::test_column_presence_and_type
+  /home/vishak_arudhra/miniconda3/envs/mlflow-cae5f163cb5631e5bcb3d0191a7e5304b8417f4e/lib/python3.8/site-packages/pluggy/callers.py:187: DtypeWarning: Columns (16) have mixed types.Specify dtype option on import or set low_memory=False.
+    res = hook_impl.function(*args)
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+======================== 4 passed, 2 warnings in 4.38s =========================

@@ -1,0 +1,13 @@
+name: download_data
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8.0
+  - requests=2.24.0
+  - pip=20.3.3  
+  - hydra-core=1.0.6
+  - mlflow=1.17.0
+  - pip:
+      - wandb==0.10.21
+      - hydra-joblib-launcher==1.1.2
